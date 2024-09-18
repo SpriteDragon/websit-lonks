@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="style.css">
 <script>
 const w = window.open() // access the "about:blank" window you've opened
-w.document.body.innerHTML = "<style>body{hight:600px:}</style><body><iframe src='links.html' style='hight: 100%; width: 100%;'</iframe></body>"
+w.document.body.innerHTML = "<embed src='links.html' width='100%' hight='100%' type='text/html' />"
 // or access other parts to add more JS or CSS
 const style = w.document.createElement("link")
 link.href = "/path/to.css"
